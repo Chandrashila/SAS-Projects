@@ -1,0 +1,11 @@
+Using Survival analysis we try to resolve attrition issue for FermaLogis by answering following questions:
+
+1.Who is leaving the company? 
+2.Why are they leaving? 
+3.When is the biggest danger for employees to leave? 
+4.Is there any difference in attrition between different employee groups or categories? 
+5.Any other findings of the company. 
+6.Can I combine different event types together? Or do all need to be handled separately? 
+7.What attributes increase/decrease the hazard rates for certain event types? 
+8.Does bonus affect employee turnover? If yes, how? 
+9.Are there any variables which affect hazards non-proportionally? 
