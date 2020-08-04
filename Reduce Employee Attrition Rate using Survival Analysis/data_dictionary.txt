@@ -1,0 +1,78 @@
+Coding For Event Type:
+
+0 - No turnover
+
+1 - Retirement
+
+2 - Voluntary Resignation
+
+3 - Involuntary Resignation (Health problems, family matters etc.)
+
+4 - Job Termination, Employee is Fired
+
+There are deliberate mistakes in the dataset. I want the students to understand the data challenges they will encounter in real life.
+
+One such example is the turnover field:  Please explore the true value of turnover for each observation from the other attributes and select whichever you want.
+
+================================================================
+Age: age of the employee when this dataset was created
+Attrition: shows whether the employee left the company or not
+BusinessTravel: shows how much travel employee makes
+DailyRate:daily compensation of employee before any cuts/taxes
+Department: shows the department of the employee when this dataset was created
+DistanceFromHome: commuting distance for the employee in miles
+Education:	1 'Below College'
+		2 'College'
+		3 'Bachelor'
+		4 'Master'
+		5 'Doctor'
+EducationField: shows the education field of the employee
+EmployeeCount: a field used for aggregation calculations
+EmloyeeNumber: the ID of the employee
+EnvironmentSatisfaction: a score showing how much the employee is satisfied with company's facilities
+		1 'Low'
+		2 'Medium'
+		3 'High'
+		4 'Very High'
+Gender: shows the gender of the employee
+HourlyRate: hourly compensation of employee before any cuts/taxes
+JobInvolvement: a score given to the employee by supervisors how much the employee is involved in company's operations
+		1 'Low'
+		2 'Medium'
+		3 'High'
+		4 'Very High'
+JobRole: shows the job role of the employee in the company
+JobLevel: shows the management level of the employee
+JobSatisfaction: shows the last survey result of the employee about his\her job satisfaction
+MaritalStatus: shows the marital status of the company
+MonthlyIncome: shows the monly income of the employee
+MontlyRate: monthly compensation of employee before any cuts/taxes
+NumCompaniesWorked: the number of companies the employee worked before starting in the company
+Over18: shows whether the employee is over 18 years old.
+OverTime: shows whether employee works overtime more than 10 hours a week 
+PercentSalaryHike: shows the agreed yearly salary rise percent
+PerformanceRating:a score given to the employee by supervisors how good was the performance of the employee last year
+		1 'Low'
+		2 'Good'
+		3 'Excellent'
+		4 'Outstanding'
+RelationshipSatisfaction: shows the last survey result of the employee about his\her satisfaction with other employees in the company
+		1 'Low'
+		2 'Medium'
+		3 'High'
+		4 'Very High'
+StandardHours: number of hours employee works for one payroll period (two weeks) 
+StockOptionLevel: shows the stock option for the employee. If your analyses give significant results for this variable, you can refer to that group as "employees having stock option level x"
+TotalWorkingYears: shows the time the employee worked as a professional (at any company)
+TrainingTimesLastYear: shows the number of training programs employee has attended last year
+WorkLifeBalance: shows the employee satisfaction of the work load (4 is the highest satisfaction level)
+		1 'Bad'
+		2 'Good'
+		3 'Better'
+		4 'Best' 
+YearsAtCompany: Tenure at the company
+YearsInCurrentRole: the number of years employee works in the current position
+YearsSinceLastPromotion: shows the number of years passed since the last promotion
+YearsWithCurrentManager: shows the number of years with the current supervisor.
+bonus_1-40 : shows whether the employee received bonus payments in the last 40 years. bonus_1 is last year.Those are the bonus status of the employee's working years. bonus_1 = 0 means the employee received no bonus in her first year. 1 means she did receive bonus on that year, NA means that year is inapplicable. If she has worked only for 4 years, bonus for the fifth year, bonus_5, will be NA.
+   
